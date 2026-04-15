@@ -1,13 +1,9 @@
-# Von Doom Studios — Clients
+# VonDoom Studios — Clients
 
-Client work organized by category and project.
+Client projects managed by VonDoom Studios across film, TV, and other industries.
 
-## Structure
+| Section | Description |
+|---|---|
+| [Film & TV/](Film%20%26%20TV/) | Film and television client projects |
 
-```
-clients/
-├── Film & TV/
-│   └── Quentin/
-│       └── 24-tattoos/
-└── ...
-```
+**Last updated:** April 15, 2026
