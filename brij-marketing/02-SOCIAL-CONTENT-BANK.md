@@ -1,312 +1,344 @@
 # Social Content Bank — BRIJ
 
-Ready-to-edit posts. Copy them, adjust, publish. Organized by launch.
+Actual posts. Written to stop the scroll.
 
 ---
 
-## LAUNCH 1: Espresso Cash → BRIJ
+## CAMPAIGN 1: "WE EVOLVED" — Espresso Cash → BRIJ
 
 ---
 
-### Thread #1: The Rebrand Announcement (X — Pin to profile)
+### Thread #1: The Transformation Story (X — Monday, pin to profile)
 
-**Tweet 1 (hook):**
-Espresso Cash is now BRIJ.
+**Tweet 1:**
+We built a wallet.
 
-Same wallet. Same team. Much bigger mission.
+Then we realized: a wallet isn't a business. It's a feature.
 
-Here's what changed and why. 🧵
+So we built the business. 🧵
 
 **Tweet 2:**
-Espresso Cash started as a wallet on Solana — fast transfers, clean UX, no seed phrases.
+Espresso Cash was fast. Clean. No seed phrases. Real transfers.
 
-It worked. But we kept running into the same wall: agents need more than a wallet.
+But every time an AI agent tried to use it, the same question came up: "I can hold money. Now what?"
+
+It couldn't read a market. It couldn't pay for an API call. It couldn't book a flight. It couldn't convert your dollars into stablecoins without you lifting a finger.
+
+A wallet alone is a dead end for software.
 
 **Tweet 3:**
-They need to read on-chain state. Write transactions. Pay for APIs. Convert fiat. All without a human in the loop.
+So we tore it open and built what was missing.
 
-No product on Solana did all of that. So we built one.
+A read layer — your agent queries Jupiter, Orca, Raydium, Solend. One call. Structured data. Sub-100ms.
+
+A write layer — declarative transactions. No SDK installs. No dependencies. The wallet signs autonomously with policy guards you set.
+
+A payment layer — x402. Your agent hits an API, pays in stablecoins, gets access. Per request. No subscription. No API key. No merchant account.
+
+An on-ramp — fiat in, USDC out, best rate across 10+ providers. One call.
 
 **Tweet 4:**
-BRIJ is the agent layer for Solana.
+Put it together and you don't have a wallet anymore.
 
-Four capabilities, one stack:
-→ Read: protocol-aware state across Jupiter, Orca, Raydium, Solend
-→ Write: declarative tx execution + smart wallet
-→ Pay: x402 per-request stablecoin settlement
-→ Onramp: best-rate fiat conversion via MCP aggregator
+You have an AI agent that reads markets, executes transactions, pays for what it needs, and funds itself.
+
+Without you.
 
 **Tweet 5:**
-Espresso Cash didn't die. It evolved.
+Espresso Cash didn't die.
 
-The wallet is now one pillar of something much larger.
+It became the first organ of something alive.
 
-If you used Espresso Cash, you're already on BRIJ. Welcome.
+We call it BRIJ. The agent layer for Solana.
 
 brij.fi
 
----
-
-### Standalone Tweets: Rebrand Week
-
-**Day 2:**
-Espresso Cash is now @brij_fi.
-
-Same wallet. Bigger mission.
-
-The agent layer for Solana.
-
-**Day 3:**
-If you used Espresso Cash, you're already on BRIJ.
-
-Same wallet. Now it's part of an infrastructure stack that lets AI agents read, write, pay, and onramp on Solana.
-
-brij.fi
-
-**Day 5 (teaser):**
-The wallet was just the beginning.
-
-Monday, your AI agent books its first flight.
-
-travel.brij.fi
+And if you think that's the announcement — there's something else coming Friday.
 
 ---
 
-## LAUNCH 2: BRIJ Travel
+### Video Script #1: "We Evolved" (45 seconds)
+
+```
+[0-3s] Black screen. Espresso Cash logo fades in, clean white.
+[3-5s] Logo starts to glitch — digital distortion. Sound: electronic crackle.
+[5-7s] Logo fragments scatter, reform into BRIJ logo. Sound: deep bass hit.
+[7-10s] Text on screen: "We started as a wallet."
+[10-12s] Cut to: clean shot of the Espresso Cash wallet interface. Peaceful. Simple.
+[12-14s] Text: "Then we asked a question."
+[14-17s] Text appears one word at a time: "What if... software... could do business?"
+[17-19s] Hard cut. Fast montage begins. Sound: driving beat kicks in.
+[19-20s] Screen: code flying in — "brij.read('jupiter, orca, raydium')" — flash of data
+[20-21s] Screen: transaction executing — green confirmation flash
+[21-22s] Screen: "HTTP 402 → pay 0.001 USDC → 200 OK" — settled
+[22-23s] Screen: "$200 USD → 198.50 USDC" — conversion complete
+[23-26s] Quick cuts: agent booking a flight, wallet balance updating, escrow settling
+[26-30s] Montage freezes. Silence.
+[30-33s] Text: "Read. Write. Pay. Onramp."
+[33-37s] Text: "The agent layer for Solana."
+[37-40s] BRIJ logo. brij.fi
+[40-45s] Text fades in: "Your agent's first flight → travel.brij.fi"
+```
+
+**Music:** Dark electronic, builds energy. Think: the sound of something powering up.
+**Mood:** Not corporate. Not crypto-bro. Feels like something is waking up.
 
 ---
 
-### Thread #2: Travel Launch (X — Pin to profile, replace rebrand thread)
+## CAMPAIGN 2: "THE FLIGHT THAT BOOKED ITSELF" — Travel Launch
 
-**Tweet 1 (hook):**
-Your AI agent just booked a flight.
+---
 
-Real airline inventory. Real ticket. Paid in USDC on Solana. Settled in under a second.
+### Thread #2: Travel Launch (X — Monday Week 2, replace pinned)
 
-This is BRIJ Travel. 🧵
+**Tweet 1:**
+I bought a plane ticket and never opened a browser.
+
+No Google Flights. No Kayak. No "checking 400+ sites." No cookie-inflated prices.
+
+I told my AI agent where I wanted to go. It found the flight, booked the flight, and sent me the confirmation code.
+
+This is not a demo. It's live. Here's how. 🧵
 
 **Tweet 2:**
-Here's what happened:
+The product is called BRIJ Travel. It's at travel.brij.fi.
 
-1. Agent searches live flights (POST /air/search) — $0.10
-2. Locks in the offer (POST /air/intents) — $0.10
-3. Pays the escrow and books (POST /air/intents/{id}/book) — flight price
-4. Airline confirmation code returned
+Your agent connects via MCP on Grok. It hits the BRIJ Travel API — real airline inventory, real flights, real bookings. Paid in USDC on Solana using x402.
 
-Four HTTP calls. No account. No contract. No IATA accreditation.
+Four API calls: search, reserve, fund, booked.
+
+That's not a simplification. That's the actual architecture.
 
 **Tweet 3:**
-How it works under the hood:
+Let's talk about what's actually happening to you when you book a flight today.
 
-Your agent connects via the BRIJ MCP on Grok. It hits our x402-powered API. Payment is authentication — show up with USDC, start booking.
+You search on Google Flights. Then you check Kayak. Then Skyscanner. Then the airline directly.
 
-Every booking is escrow-backed on Solana. If the price changes before confirmation, you get an automatic refund.
+Every single one of those sites is tracking you. They share data. They see your desperation. And they adjust prices upward.
+
+This isn't a conspiracy theory. Airlines spent $4.2B on dynamic pricing systems last year. The product is you.
 
 **Tweet 4:**
-Why this matters:
+Your AI agent doesn't have cookies.
+It doesn't have a browser fingerprint.
+It doesn't have search history.
+It doesn't panic-refresh at 2am.
 
-Airlines track your searches across sites and inflate prices the more desperate you look.
+It makes a clean API call, gets the real price, and books it.
 
-Your AI agent has no cookies. No browser fingerprint. No search history. It just gets the price.
+The airline's $4.2B pricing engine? Irrelevant.
 
 **Tweet 5:**
-Traditional flight booking:
-— Apply for GDS access (weeks)
-— IATA accreditation (months)
-— Monthly minimums
-— PCI compliance
-— Merchant accounts
+What it costs:
 
-BRIJ Travel:
-— Show up with USDC
-— Start booking
+Search: $0.10
+Reserve: $0.10
+Book: the ticket price
+
+Total platform fees: twenty cents.
+
+No subscription. No monthly minimum. No merchant account. No IATA accreditation.
+
+You pay for the flight. And twenty cents. That's it.
 
 **Tweet 6:**
-This is the first x402 merchant on Solana.
+Every booking is escrow-backed on Solana.
 
-Pay-per-call. No subscription. No API keys. No monthly minimums.
+Your funds go into a per-intent escrow PDA. If the airline's price changed before confirmation — automatic refund. No support ticket. No dispute. No 7–10 business days.
 
-Your agent pays $0.10 to search. The flight price to book. That's the entire cost structure.
+The code handles it.
 
 **Tweet 7:**
-Try it now: travel.brij.fi
+This is live. Right now.
 
-Connect the BRIJ MCP on Grok. Search a flight. Book it.
+→ Book a flight: travel.brij.fi
+→ API docs: travel.brij.fi/openapi.json
+→ Agent manifest: travel.brij.fi/llms.txt
+→ x402 discovery: travel.brij.fi/.well-known/x402
 
-API docs: travel.brij.fi/openapi.json
-Agent manifest: travel.brij.fi/llms.txt
-x402 discovery: travel.brij.fi/.well-known/x402
+The internet reserved HTTP status code 402 — "Payment Required" — in 1997.
 
-The agent layer for Solana is live.
+For 29 years, nobody used it.
 
-**[Attach: 30-sec demo video]**
+We did.
+
+**[Attach: 30-sec launch video]**
 
 ---
 
-### Thread #3: How x402 Works (Technical — Wed of launch week)
+### Video Script #2: "The Flight That Booked Itself" (30 seconds)
 
-**Tweet 1 (hook):**
-We built a flight booking service with zero accounts, zero API keys, and zero merchant onboarding.
+```
+[0-2s] Split screen. LEFT: real person at laptop, 6 browser tabs visible.
+       RIGHT: Grok chat interface, empty.
+       Sound: typing, mouse clicking (agitated).
 
-Here's how x402 makes that possible. 🧵
+[2-5s] LEFT: Person switches between tabs. Google Flights. Kayak. Airline site.
+       Price displayed: $487. They switch tabs. Come back. Price now: $512.
+       Person visibly frustrated.
+       RIGHT: Still empty. Cursor blinks.
+
+[5-8s] RIGHT: Text appears in Grok: "Find me a flight SFO → Barcelona, June 15."
+       LEFT: Still switching tabs. Price now $524.
+
+[8-12s] RIGHT: Results animate in.
+       "Flight 1: SFO → BCN | June 15 | 11:20am | $471 | Delta"
+       "Flight 2: SFO → BCN | June 15 | 3:45pm | $489 | United"
+       "Flight 3: SFO → BCN | June 15 | 9:00pm | $461 | Air France"
+       LEFT: Person refreshes. Price: $531. Puts head in hands.
+
+[12-15s] RIGHT: User types: "Book flight 3."
+        Processing animation. Quick flash of escrow settling.
+        "✓ Booked. Confirmation: AF-7X2K9. SFO → BCN, June 15, 9:00pm."
+        LEFT: Person still comparing tabs.
+
+[15-18s] LEFT side dims to black. RIGHT expands to full screen.
+         Text overlay: "The flight that booked itself."
+
+[18-22s] Text: "$461. Twenty cents in fees. Zero tabs. Zero tracking."
+
+[22-26s] BRIJ Travel logo. travel.brij.fi
+
+[26-30s] Small text: "BRIJ. The agent layer for Solana."
+```
+
+**Music:** Minimal. A single rhythmic pulse that builds subtle tension. Think: a clock ticking, then release when the booking confirms.
+**LEFT side audio:** Faint frustration sounds — clicks, sighs, keyboard mashing.
+**RIGHT side audio:** Clean, quiet. Just the confirmation chime.
+
+---
+
+### Thread #3: The x402 Origin Story (Antoine — Friday Week 2)
+
+**Tweet 1:**
+In 1997, the people designing HTTP created status code 402.
+
+"Payment Required."
+
+They wrote: "This code is reserved for future use."
+
+Then everyone forgot about it. For 29 years.
+
+We remembered. 🧵
 
 **Tweet 2:**
-x402 is an HTTP-native payment protocol.
+Here's what 402 was supposed to be:
 
-Your agent makes a request. The server returns HTTP 402 Payment Required. The agent pays in USDC on Solana. Server returns 200 OK with the data.
+You make an HTTP request. The server says: "This costs money." You pay. You get the response.
 
-That's the entire auth flow. Payment IS authentication.
+No login. No API key. No subscription page. No credit card form. No merchant account.
+
+Payment is the authentication. The internet's original vision for paid access.
 
 **Tweet 3:**
+We built x402 to make this real on Solana.
+
 ```
-$ curl -X POST "https://travel.brij.fi/air/search" \
-  -H "PAYMENT-SIGNATURE: <sig>" \
-  -d '{"origin":"SFO","destination":"JFK","departure_date":"2026-08-15"}'
+→ GET /api/signals/alpha
+← 402 Payment Required
+→ pay 0.001 USDC
+← 200 OK (data returned)
 ```
 
-$0.10 USDC. Live airline offers returned. No signup. No API key.
+Settled on-chain. 340ms. Receipt: 7fA…b21.
+
+That's the entire flow. No auth headers. No billing dashboard. No monthly invoice.
 
 **Tweet 4:**
-Booking uses the same pattern.
+Then we asked: what's the most complex thing an agent could buy with this?
 
-Create an intent → lock in the offer → pay the escrow amount via x402 → airline confirmation code returned.
+A flight ticket.
 
-Every booking has a per-intent Solana escrow PDA. If the upstream price changed, the booking is rejected and funds are refunded automatically.
+Live airline inventory. Dynamic pricing. Multiple intermediaries. Real money. Real escrow. Real confirmation codes.
+
+If x402 can handle a flight booking, it can handle anything.
 
 **Tweet 5:**
 For API providers, x402 means:
 
-List your service once. Get paid per request in stablecoins. No billing infrastructure. No auth system. No compliance overhead.
+List your service. Set a price per call. An agent requests, pays, gets access.
 
-BRIJ settles the payment and takes a fee. You get revenue.
+You get USDC per request. We settle the payment.
+
+No billing infrastructure. No auth system. No compliance overhead. Just revenue.
 
 **Tweet 6:**
-x402 is how the internet should have worked from the start.
+HTTP 402 waited 29 years for someone to use it.
+
+Now an AI agent just used it to buy a plane ticket.
 
 Read the spec: brij.fi/resources/x402-standard
-Try the travel API: travel.brij.fi/openapi.json
+Try the API: travel.brij.fi
+
+The internet should have worked like this from the start.
 
 ---
 
-### Thread #4: First Week Results (Week 3 Monday)
+### Standalone Social Posts — Travel Weeks
 
-**Tweet 1:**
-BRIJ Travel — Week 1 numbers.
+**"The Experiment" (with screenshots):**
+We searched the same flight on Google Flights, Kayak, and BRIJ Travel.
 
-We launched the world's first agentic flight booking 7 days ago.
+Google: $487
+Kayak: $502
+BRIJ: $461
 
-Here's what happened. 🧵
+Same flight. Same airline. Same seat.
 
-**Tweet 2:**
-[X] flight searches
-[X] bookings completed
-[X] unique users
-[X] total USDC settled
+The difference? BRIJ doesn't know you've been searching for 3 days.
 
-(Fill with real numbers. If numbers are small, own it: "We're early. The people who tried it came back.")
+[Screenshots of all three]
 
-**Tweet 3:**
-What we learned:
-— [Specific observation about user behavior]
-— [What surprised us]
-— [What we're fixing]
+**"The Receipt":**
+One flight booked:
+SFO → JFK
+$312 USDC
+Escrow settled: 0.8 seconds
+Platform fee: $0.20
+Airline confirmation: DL-4K7N2
 
-**Tweet 4:**
-What's next:
-— [Wallet integration timeline]
-— [Upcoming feature]
-— [Community ask or CTA]
+That's what a flight booking looks like when software does the work.
 
----
+**"The Math":**
+Google Flights charges you nothing.
 
-### Thread #5: The Platform Vision (Week 4 Monday)
+But airlines pay Google per click. That cost gets baked into your ticket price. Then the dynamic pricing algorithm sees you searched 3 times and adds more.
 
-**Tweet 1 (hook):**
-BRIJ Travel isn't a travel company.
+You're not the customer. You're the product.
 
-It's proof that the agent layer for Solana works. 🧵
+On BRIJ, you pay twenty cents and the ticket price. No tracking premium. No middleman markup baked into the fare.
 
-**Tweet 2:**
-Think of it like this:
+**"The Dare":**
+Pick a flight you've been pricing.
 
-OpenRouter made it trivial to access any LLM via one endpoint.
+Search it on Google Flights. Screenshot the price.
+Now search it on BRIJ Travel.
 
-BRIJ does the same thing for on-chain services on Solana.
+Reply with both prices.
 
-Read state. Write transactions. Pay for APIs. Convert fiat. One integration.
+We dare you.
 
-**Tweet 3:**
-Travel is the first service built on this stack.
+**"Speed":**
+From "I need a flight" to "here's your confirmation code":
 
-But the stack does a lot more than flights:
-→ Smart wallets that agents control with policy guards
-→ Per-request payments to any API
-→ Best-rate fiat onramps across 10+ providers
-→ Unified reads across every major Solana protocol
+Kayak: 37 minutes (average, per their own data)
+BRIJ: 30 seconds
 
-**Tweet 4:**
-We're building for three groups:
+We timed it.
 
-1. Agent builders: ship autonomous agents without glue code
-2. API providers: earn stablecoins per agent request, no billing overhead
-3. Wallet developers: agent-native fiat rails, best rates
+**"For builders":**
+The entire BRIJ Travel API:
 
-**Tweet 5:**
-Whether you're building agents, exposing APIs, or need fiat rails — we're the layer underneath.
+POST /air/search — find flights ($0.10)
+POST /air/intents — lock one in ($0.10)
+POST /air/intents/{id}/book — pay and book (ticket price)
+POST /air/intents/{id}/refund-requests — if price changed ($0.10)
 
-brij.fi/platform
+OpenAPI spec: travel.brij.fi/openapi.json
 
----
+4 endpoints. Full booking lifecycle. No account. No contract.
 
-### Standalone Tweets: Travel Launch Weeks
-
-**"No tracking" angle:**
-Airlines track your searches across 6 sites and raise prices.
-
-Your AI agent has no cookies. No fingerprint. No search history.
-
-It just gets the price.
-
-travel.brij.fi
-
-**"Cost" angle:**
-Search a flight: $0.10
-Reserve it: $0.10
-Book it: the ticket price
-
-No subscription. No monthly minimums. No merchant account.
-
-That's BRIJ Travel.
-
-**"Speed" angle:**
-Traditional flight booking: open 6 tabs. Compare for 45 minutes. Get a worse price than yesterday.
-
-Agent booking: "Find me a flight to Barcelona next Friday." Done.
-
-travel.brij.fi
-
-**"Escrow" angle:**
-Every BRIJ Travel booking is escrow-backed on Solana.
-
-If the airline price changes before confirmation, you get an automatic refund. No support tickets. No disputes.
-
-travel.brij.fi
-
-**"Builder" angle:**
-4 endpoints. Full booking lifecycle.
-POST /air/search
-POST /air/intents
-POST /air/intents/{id}/book
-POST /air/intents/{id}/refund-requests
-
-Docs: travel.brij.fi/openapi.json
-
-**Weekend hook:**
-Going somewhere this weekend?
-
-Let your agent handle the booking.
-
-travel.brij.fi
+Build something.
 
 ---
 
@@ -314,46 +346,54 @@ travel.brij.fi
 
 ---
 
-### Reddit #1: r/solana Launch Post
+### Reddit #1: r/solana
 
-**Title:** We just shipped the first agentic flight booking service on Solana — your AI agent can book real flights with USDC
+**Title:** We used HTTP 402 to build the first AI-booked flight on Solana — here's how it works
 
 **Body:**
-Hey r/solana — we've been building BRIJ, an infrastructure layer for AI agents on Solana. Today we shipped our first product: BRIJ Travel.
 
-**What it does:** Your AI agent (Grok, via MCP) can search live airline inventory, select a flight, and book it — paid in USDC via the x402 protocol. Four API calls from search to confirmed booking.
+We just shipped BRIJ Travel — the first flight booking service where an AI agent does the entire booking via x402 on Solana.
 
-**How it works:**
-- Search: POST /air/search ($0.10 USDC)
-- Reserve: POST /air/intents ($0.10)
-- Book: POST /air/intents/{id}/book (flight price, escrow-backed)
-- Refund: automatic if upstream price changes
+**The short version:** Your agent (Grok, via MCP) searches live airline inventory, selects a flight, and books it. Paid in USDC. Escrow-backed per-intent on Solana. Four API calls.
 
-No account needed. No API keys. No IATA accreditation. Payment is authentication.
+**Why this is interesting for Solana:**
 
-**Why Solana:** Escrow PDAs per booking intent. Sub-second settlement. Stablecoin-native.
+The payment protocol is x402 — HTTP-native. Agent makes a request, server returns 402 Payment Required, agent pays in USDC, server returns 200 OK with the data. Authentication IS payment. No accounts, no API keys, no merchant onboarding.
+
+Each booking creates a per-intent escrow PDA on Solana. Funds are held until the airline confirms. If the upstream price changed, the escrow refunds automatically.
+
+Settlement: sub-second. Fees: $0.20 total for search + reserve. Booking: ticket price in USDC.
+
+**Why this matters beyond flights:**
+
+x402 turns any API into a pay-per-call service on Solana. We built flights first because it's the hardest — live inventory, dynamic pricing, multiple intermediaries, real money. If this works (it does), the protocol works for anything.
 
 Try it: travel.brij.fi
-API docs: travel.brij.fi/openapi.json
+Spec: travel.brij.fi/openapi.json
 Agent manifest: travel.brij.fi/llms.txt
 
-Happy to answer any technical questions.
+Technically this is the first real x402 merchant on Solana. Happy to go deep on the escrow architecture, the payment flow, or anything else.
 
 ---
 
-### Reddit #2: r/ChatGPT or r/LocalLLaMA
+### Reddit #2: r/ChatGPT
 
-**Title:** Your AI agent can now book real flights — we built an x402-powered flight booking API
+**Title:** I booked a real flight without opening a single website — just told my AI agent where I wanted to go
 
 **Body:**
-We built BRIJ Travel — an API that lets AI agents search and book real flights. It's live at travel.brij.fi.
 
-The flow: your agent (currently works best on Grok with our MCP connector) searches real airline inventory, selects a flight, and books it. Paid in USDC on Solana. Four API calls total.
+Built something I want to share: BRIJ Travel (travel.brij.fi).
 
-The interesting part from an agent perspective: there's no account creation, no API keys, no merchant setup. The agent authenticates by paying — x402 protocol. The payment IS the authentication.
+I opened Grok, typed "Find me a flight from SFO to Barcelona on June 15," and got back real airline offers with real prices. Typed "Book flight 3" and got a confirmation code I can use to check in at the airport.
 
-Right now it's for the technically inclined — you need USDC and a Grok account with MCP support. We're working on wallet integration and eventually credit card onboarding for mainstream users.
+No Google Flights. No Kayak. No airline website. No browser tabs. No price manipulation.
 
-Demo + docs: travel.brij.fi
+**How it works under the hood:** The agent connects to our API via MCP. It uses a protocol called x402 — basically the agent pays a small amount in stablecoins (USDC) per API call and gets live flight data back. The booking is escrowed on Solana until the airline confirms.
 
-Curious what this community thinks. Happy to answer questions.
+**The interesting AI implication:** When you search flights on Google Flights, the airlines know. They track your cookies, your search frequency, your device. Prices adjust upward the more desperate you look. An AI agent making clean API calls has none of that baggage. It just gets the price.
+
+Right now it requires Grok with MCP support and USDC. We're working on making it accessible to anyone (wallet integration, then credit cards). But wanted to share the current version with this community since it feels like a glimpse of where agent capabilities are heading.
+
+Docs if you want to try it: travel.brij.fi/llms.txt
+
+Happy to answer questions about the experience or the tech.
