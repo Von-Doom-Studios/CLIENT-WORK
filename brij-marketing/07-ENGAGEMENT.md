@@ -1,141 +1,112 @@
-# 07 - ENGAGEMENT: Brij Marketing
+# 07 - ENGAGEMENT
 
-Specific X accounts to engage with weekly, by handle, with the kind of value to add. This is the actual lever for organic growth on a small account in a small space.
-
-This file is also the input contract for the external X-watcher agent that scrapes these handles daily and surfaces posts worth engaging with.
+X accounts to engage with weekly. Also the input contract for the external X-watcher agent.
 
 **Owner:** VD-Marketing
-**Related files:** [02-STRATEGY.md](./02-STRATEGY.md), [04-CALENDAR.md](./04-CALENDAR.md)
 **Last updated:** 2026-05-26
 
 ---
 
-## Rules of engagement
+## Rules
 
-1. **Replies must add value.** A code snippet, a counter-example, a sharp extension of the point with Brij as the proof. Empty "great post!" replies are banned.
-2. **Public, not private.** Engagement is public on X. Outreach over DM is Ops territory.
-3. **15-20 minutes/day on X.** Not a one-off task. Daily ritual against the queue produced by the external X-watcher agent.
-4. **Quality over volume.** 3 substantive replies a day beats 30 empty ones.
-5. **Quote-post selectively.** Quote-post when there's a sharp extension. Otherwise reply in-thread.
-6. **No DMs without permission.**
-7. **Comedy reposts.** When a Tier 1-3 account posts something the Brij comedy slot would have written, repost or quote-post in-character. Engagement is also brand-building.
+1. Replies add value: a code snippet, a counter-example, a sharp extension. No empty "great post!"
+2. 15-20 min/day on X. Daily ritual against the X-watcher queue.
+3. Quote-post when there's a sharp extension. Reply in-thread otherwise.
+4. No DMs. Outreach is Ops.
 
-## Tiered target list
+## Tier 1 - Ecosystem amplifiers
 
-The external X-watcher reads this list and scrapes each handle. The columns are the contract.
-
-### Tier 1 - Ecosystem amplifiers (highest leverage)
-
-Reposts and quote-posts from these accounts compound. One amplification here is worth 50 generic likes.
+One repost here is worth 50 generic likes.
 
 | Handle | Why | What to reply with |
 |---|---|---|
-| @CoinbaseDev | x402 protocol team. The most important amplifier we have. | Real x402 implementations, edge cases, performance numbers from our endpoints. |
-| @solana | Top of the Solana funnel. | Solana-specific receipts: settlement times, escrow PDA patterns, USDC flow numbers. |
-| @SolanaFndn | Foundation account. | Ecosystem milestone language. Tie what we're shipping to broader Solana narratives. |
-| @helius_labs | Solana infrastructure. Heavily used by builders. | Technical notes on how we use their RPC, any edge cases worth flagging. |
-| @JupiterExchange | DeFi infrastructure on Solana. | Cross-pollination with on-ramps and best-rate routing. |
-| @phantom | Wallet UX leader. | When they post about agent UX or programmatic wallets, we have a point of view. |
-| @superteam | Solana builder community. | Builder spotlight content, hackathon angles. |
+| @CoinbaseDev | x402 protocol team. Top amplifier. | x402 edge cases, performance numbers, builder feedback. |
+| @solana | Top of the Solana funnel. | Settlement times, USDC flow numbers, escrow patterns. |
+| @SolanaFndn | Foundation. | Tie our shipping to broader Solana narratives. |
+| @helius_labs | Solana infra. | How we use their RPC, edge cases. |
+| @JupiterExchange | DeFi infra on Solana. | On-ramp routing, best-rate angles. |
+| @phantom | Wallet UX leader. | Agent UX and programmatic wallet POVs. |
+| @superteam | Solana builder community. | Hackathon angles, builder spotlights. |
 
-### Tier 2 - Agent framework accounts (primary buyer audience)
-
-Where our customers actually live. Reply traffic here converts to followers and email signups.
+## Tier 2 - Agent frameworks (primary buyer audience)
 
 | Handle | Why | What to reply with |
 |---|---|---|
-| @LangChainAI | Largest agent framework community. | Code-level replies about how a Brij wallet + x402 integration would look in LangChain. |
-| @crewAIInc | Multi-agent framework. | Payment primitives for multi-agent systems. |
-| @vercel | AI SDK is heavily used. | "Here's the payment piece you didn't have" framing when they post about agent capabilities. |
-| @letta_ai | Stateful agents. | Stateful-agent + persistent-wallet pairing. |
-| @ai16zdao | Eliza framework, active builder community. | Eliza plugin angle for Brij. |
-| @mastra_ai | Newer agent framework with active devrel. | Direct integration pitch in public. |
-| @pyautogen | Microsoft's framework. | Enterprise angle, payment compliance. |
+| @LangChainAI | Largest agent framework. | Code-level: how Brij + x402 plugs into LangChain. |
+| @crewAIInc | Multi-agent. | Payment primitives for multi-agent systems. |
+| @vercel | AI SDK heavy use. | "Here's the payment piece you didn't have." |
+| @letta_ai | Stateful agents. | Stateful agent + persistent wallet pairing. |
+| @ai16zdao | Eliza framework. | Eliza plugin angle. |
+| @mastra_ai | Active devrel. | Direct integration in public. |
+| @pyautogen | Microsoft framework. | Enterprise / compliance angle. |
 
-### Tier 3 - Builders shipping in adjacent space
-
-Peer builders. Mutual amplification. Replies build relationships that turn into co-marketing.
+## Tier 3 - Peer builders
 
 | Handle | Why | What to reply with |
 |---|---|---|
-| _Seed list pending_ - individual x402 builders | To be sourced from x402 ecosystem listings. | Technical questions, sharing edge cases we've hit. |
-| _Seed list pending_ - Solana agent builders | To be sourced from ecosystem. | Solana-specific implementation chat. |
-| _Per-event basis_ - Crypto AI hackathon winners | Track winners as they're announced. | Repost their wins. Quote-post with "here's how Brij would slot in" when relevant. |
+| _Seed list pending_ - x402 builders | From ecosystem listings. | Technical questions, edge cases. |
+| _Seed list pending_ - Solana agent builders | From ecosystem. | Solana implementation chat. |
+| _Per-event_ - Crypto AI hackathon winners | Track as announced. | Repost wins. Quote-post when Brij would slot in. |
 
-### Tier 4 - Crypto media and analysts who cover infra (not price)
-
-Earned media targets. Not customers, but influence.
+## Tier 4 - Crypto media (infra coverage only)
 
 | Handle | Why | What to reply with |
 |---|---|---|
-| @BanklessHQ | They cover agent infrastructure. | Substantive replies on agent-payment narratives. |
-| @TheBlock__ | Tier-1 crypto trade press. | Source for technical context when they cover x402 or agent payments. |
-| @LightspeedPod | Solana-focused show. | Pitch when there's a real story. |
-| @decryptmedia | Broader crypto. | Source when they cover agent or payment stories. |
-| @sassal0x | Crypto analyst on infrastructure. | Engage on substance. |
+| @BanklessHQ | Cover agent infra. | Substantive replies on agent-payment narratives. |
+| @TheBlock__ | Tier-1 trade press. | Source on x402 / agent payments. |
+| @LightspeedPod | Solana-focused. | Pitch when there's a real story. |
+| @decryptmedia | Broader crypto. | Source on agent / payment stories. |
+| @sassal0x | Analyst on infra. | Engage on substance. |
 
 ---
 
 ## External X-watcher agent - input spec
 
-A separate agent on an external server scrapes the handles in this file daily and produces a ranked engagement queue. This section is its input contract. Do not change the column structure of the tiered tables above without updating this section.
+A separate agent on an external server reads this file daily, scrapes the handles, and produces a ranked engagement queue. This section is its contract.
 
-### What the agent reads
+### Reads
 
-The agent reads only this file. It parses:
+Only this file. Parses every row in the Tier 1-4 tables. Columns: `Handle`, `Why`, `What to reply with`. Rows where the Handle is italic (`_..._`) are placeholders and skipped.
 
-- Every markdown table row in the `Tier 1` through `Tier 4` sections.
-- The columns: `Handle`, `Why`, `What to reply with`.
-- Handles are extracted from the `Handle` column. Lines starting with `_..._` (italic) are placeholders and are skipped.
+### Does
 
-### What the agent does
+For each handle, daily:
+1. Pull last 24h of original posts (not replies, not reposts).
+2. Score each: relevance to Brij thesis (x402, Solana, agent payments, smart wallets, on-ramps, AI agent infra) + recency decay + post traction (likes + reposts + replies).
+3. Rank top 5 across all handles into a single queue.
 
-For each scraped handle, daily:
+### Writes
 
-1. Pull the account's last 24 hours of original posts (not replies, not reposts).
-2. Score each post on engagement opportunity: relevance to Brij thesis (x402, Solana, agent payments, smart wallets, on-ramps, AI agent infrastructure), recency (decay), and post traction (likes + reposts + replies).
-3. Rank the top posts across all handles into a single daily queue.
+One file per day: `Von-Doom-Studios/CLIENT-WORK/brij-marketing/engagement-queue/YYYY-MM-DD.md`. Creates the `engagement-queue/` folder on first run.
 
-### What the agent outputs
-
-A single file committed to the repo at `Von-Doom-Studios/CLIENT-WORK/brij-marketing/engagement-queue/YYYY-MM-DD.md` (the agent creates the `engagement-queue/` folder on first run if it doesn't exist). Structure per entry:
+Each entry:
 
 ```
-## [post N of 5] @handle - <relative time, e.g. 4h ago>
+## [N of 5] @handle - <relative time>
 
 **Post URL:** https://x.com/handle/status/...
-**Post text:** <full text, truncated to 280 chars if needed>
-**Why it's high-leverage:** <one-line justification tied to the "Why" column for this handle in 07-ENGAGEMENT.md>
-**Suggested reply angle:** <one-line angle derived from the "What to reply with" column>
+**Post text:** <full text, truncated to 280 chars>
+**Why it's high-leverage:** <one-line tied to the "Why" column>
+**Suggested reply angle:** <one-line derived from the "What to reply with" column>
 **Tier:** 1 | 2 | 3 | 4
 **Score:** <integer>
 ```
 
-Top 5 entries per day. The queue is read by the operator who actually posts the replies. The operator picks 2-3 and replies. Marketing does not post; Marketing curates the spec the agent reads.
-
 ### Cadence
 
-- **Run:** daily at 08:00 ET.
-- **Commit window:** by 08:30 ET so the queue is available for the daily engagement ritual.
+Run 08:00 ET daily. Commit by 08:30 ET.
 
-### What the agent does NOT do
+### Does NOT
 
-- Does not post replies on its own.
-- Does not modify this file (07-ENGAGEMENT.md).
-- Does not DM anyone.
-- Does not write to any file outside `brij-marketing/engagement-queue/`.
+- Post replies.
+- Modify this file.
+- DM anyone.
+- Write outside `engagement-queue/`.
 
 ---
 
-## Tracking
-
-For now, lightweight, tracked at the campaign level inside [05-CAMPAIGNS.md](./05-CAMPAIGNS.md):
-
-- Notable amplifications per campaign window (any Tier 1 repost, reply, or DM)
-- Inbound from engagements (followers and replies that reference a specific Brij reply or thread)
-
 ## Open items
 
-1. Seed the Tier 3 builder list. ~10-20 handles already followed in the x402 / Solana agent space.
-2. Confirm whether @brij_fi or `[client]`-personal handle should be the primary engagement voice on Tier 4 media accounts.
-3. Confirm the external X-watcher agent is wired to read this file and write to `engagement-queue/`.
+1. Seed Tier 3 builder list. ~10-20 handles `[client]` already follows.
+2. Confirm @brij_fi vs `[client]`-personal handle for Tier 4 media engagement.
+3. Confirm the external X-watcher is wired to read this file.
