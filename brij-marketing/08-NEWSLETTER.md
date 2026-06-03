@@ -3,7 +3,7 @@
 402 Receipts. Long-form companion to X. Every issue ties to a campaign in [05-CAMPAIGNS.md](./05-CAMPAIGNS.md) and links back to the X posts.
 
 **Owner:** VD-Marketing
-**Last updated:** 2026-05-26
+**Last updated:** 2026-06-02
 
 ---
 
@@ -11,7 +11,7 @@
 
 Monthly. First Wednesday, AM.
 
-Issue 01 ships 2026-06-17, gated on email list ≥500. If short, the slot becomes a teaser and Issue 01 moves to the next first-Wednesday after the threshold.
+Issue 01 ships 2026-06-24, gated on email list ≥500. If short, the slot becomes a teaser and Issue 01 moves to the next first-Wednesday after the threshold.
 
 ## Integration rule
 
@@ -38,20 +38,22 @@ Defaulting to Loops pending `[client]` decision. Resend + Beehiiv is the alterna
 
 ---
 
-## Issue 01 - 2026-06-17
+## Issue 01 - 2026-06-24
 
-**Ties to:** Campaign 01 (Espresso-to-Brij), Campaign 02 (Smart wallet), Campaign 04 (Newsletter launch + bounty + free flight).
-**Subject:** "Brij is live: what we shipped"
-**Send:** 2026-06-17 Wed, AM.
+**Ties to:** Campaign 01 (Grok MCP launch + flight contest), Campaign 02 (Smart wallet), Campaign 04 (Newsletter launch + bounty + free flight).
+**Subject:** "Book a flight in Grok. Win one too."
+**Send:** 2026-06-24 Wed, AM.
 **Status:** DRAFT (gated on subs ≥500).
 
 ### What shipped this month
 
-Espresso Cash is now Brij. Same team, broader scope. The first proof is live: an AI agent can search the same airlines you would, find a flight, pay for it, and send you the confirmation. You don't need an account anywhere. travel.brij.fi is open - try it on the cheapest direct flight you can find. The X version of this announcement: `[link to post-w1-x-1]`.
+The Brij MCP is live in Grok. Open Grok, connect the MCP, search for a flight, book it. Under a minute, no browser, no airline trackers watching your search and raising the price. The X version of this launch: `[link to post-w1-x-2]`. The proof on why that matters: `[link to post-w1-x-3]` and `[link to post-w1-x-4]`.
+
+Alongside the launch we ran a four-week contest: record yourself booking a flight in Grok with the Brij MCP, post the video, and the most-retweeted entry of the week wins $200 toward their next flight. Four weeks, four winners. The X version: `[link to post-w1-x-1]`.
 
 Under travel sits the rest of Brij: a wallet built for software, not humans with thumbs. It pays per API call instead of per subscription. It enforces a rule you wrote before every transaction. It lets an AI spend on your behalf, with limits you set. It funds and exits through a real bank account. The X version: `[link to post-w2-x-3]`.
 
-We chose travel as the wedge because it's one of the hardest payment problems we could pick: regulated industry, live inventory, refunds, real consequences when something breaks. If our wallet can clear travel, it can clear most of what an agent will need to buy next.
+We chose travel as the wedge because it's one of the hardest payment problems we could pick: regulated industry, live inventory, refunds, real consequences when something breaks. If our wallet can clear travel, it can clear most of what an agent will need to buy next. The X version: `[link to post-w2-x-4]`.
 
 ### Five things in agent payments worth knowing
 
@@ -87,5 +89,5 @@ After that, Service Access opens to external builders. If you're shipping agents
 
 1. Approve ESP (Loops vs Resend + Beehiiv vs other).
 2. Confirm ESP budget in [03-BUDGET.md](./03-BUDGET.md).
-3. Recoverable Espresso Cash email list - yes/no.
-4. Confirm Issue 01 subscriber gate (≥500) or override.
+3. Confirm Issue 01 subscriber gate (≥500) or override.
+4. Confirm Issue 01 subject line.
