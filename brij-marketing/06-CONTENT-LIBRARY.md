@@ -5,43 +5,49 @@ Written X post copy. Every post maps to a slot in [04-CALENDAR.md](./04-CALENDAR
 Voice rules live in [02-STRATEGY.md](./02-STRATEGY.md). Don't restate them here.
 
 **Owner:** VD-Marketing
-**Last updated:** 2026-05-26
+**Last updated:** 2026-06-02
 
 ---
 
-## Week 1 - Travel + Espresso-to-Brij
+## Week 1 - Grok MCP launch + contest
 
-### post-w1-x-1 - 2026-05-25
+### post-w1-x-1 - 2026-06-02
 
-Pinned.
+Product (contest).
 
-> An AI agent can now book your flight. It searches the same airlines you would, finds the cheapest seat, pays for it, and sends you the confirmation. You don't need an account anywhere.
+> $200 toward your next flight.
+> How to win: Open Grok, connect the Brij MCP, search for a flight, and record the whole thing. Post the video. If yours gets the most retweets that week, you win.
 >
-> travel.brij.fi
+> 4 weeks. 4 winners.
+> Every search stays private.
+> No airline trackers inflating your price.
 
-### post-w1-x-2 - 2026-05-27
+### post-w1-x-2 - 2026-06-03
 
-Comedy.
+Product.
 
-> travel.brij.fi launched Monday. By Tuesday someone had booked a flight to Lisbon. Their wallet did the booking. They were asleep when it happened.
->
-> We're still figuring out if we should be proud of that or call somebody.
+> Book a flight in under 60 seconds. No browser. No price trackers watching you search.
 
-### post-w1-x-3 - 2026-05-29
+### post-w1-x-3 - 2026-06-05
 
 Proof.
 
-> Travel was the hardest first thing we could ship. Live inventory, regulated payments, refunds, edge cases that lose real money in seconds.
->
-> We picked it on purpose. If our wallet can clear an airline ticket, it can clear most of what comes after.
->
-> travel.brij.fi
+> Airlines track your searches and raise prices every time you look.
+> Stop feeding them data.
+> Connect Brij MCP in Grok. Search privately. Book in under a minute.
+> No trackers, no inflated fares.
+
+### post-w1-x-4 - 2026-06-06
+
+Proof.
+
+> Every time you search for a flight in your browser, the airline sees it. Search again? Price goes up. That's by design.
 
 ---
 
 ## Week 2 - Smart wallet
 
-### post-w2-x-1 - 2026-06-01
+### post-w2-x-1 - 2026-06-08
 
 Product.
 
@@ -53,7 +59,7 @@ Product.
 >
 > brij.fi
 
-### post-w2-x-2 - 2026-06-03
+### post-w2-x-2 - 2026-06-10
 
 Comedy.
 
@@ -63,7 +69,7 @@ Comedy.
 >
 > brij.fi
 
-### post-w2-x-3 - 2026-06-05
+### post-w2-x-3 - 2026-06-12
 
 Proof.
 
@@ -76,11 +82,21 @@ Proof.
 >
 > brij.fi
 
+### post-w2-x-4 - 2026-06-13
+
+Proof.
+
+> Travel was the hardest first thing we could ship. Live inventory, regulated payments, refunds, edge cases that lose real money in seconds.
+>
+> We picked it on purpose. If our wallet can clear an airline ticket, it can clear most of what comes after.
+>
+> travel.brij.fi
+
 ---
 
 ## Week 3 - On-ramp
 
-### post-w3-x-1 - 2026-06-08
+### post-w3-x-1 - 2026-06-15
 
 Product.
 
@@ -90,7 +106,7 @@ Product.
 >
 > brij.fi
 
-### post-w3-x-2 - 2026-06-10
+### post-w3-x-2 - 2026-06-17
 
 Comedy.
 
@@ -100,7 +116,7 @@ Comedy.
 >
 > brij.fi
 
-### post-w3-x-3 - 2026-06-12
+### post-w3-x-3 - 2026-06-19
 
 Proof.
 
@@ -116,7 +132,7 @@ Proof.
 
 ## Week 4 - Services, community, newsletter
 
-### post-w4-x-1 - 2026-06-15
+### post-w4-x-1 - 2026-06-22
 
 Product (community).
 
@@ -126,7 +142,7 @@ Product (community).
 >
 > Post on X, tag @brij_fi. Submission window in thread.
 
-### post-w4-x-2 - 2026-06-17
+### post-w4-x-2 - 2026-06-24
 
 Comedy.
 
@@ -136,7 +152,7 @@ Comedy.
 >
 > brij.fi
 
-### post-w4-x-3 - 2026-06-19
+### post-w4-x-3 - 2026-06-26
 
 Proof (promo).
 
@@ -152,7 +168,8 @@ Proof (promo).
 
 ## Open items
 
+- Week 1 contest (post-w1-x-1): confirm 4-week structure end date, prize fulfillment, eligibility/legal.
 - post-w4-x-1: confirm prize amounts ($500 / 3 × $100), submission window, go/no-go.
 - post-w4-x-3: confirm budget cap, "first 10" count, legal framing on the refund mechanic.
-- post-w2-x-3: confirm all four capabilities are shippable by 2026-06-05.
+- post-w2-x-3: confirm all four capabilities are shippable by 2026-06-12.
 - Any future receipt post that quotes a number (settlement time, fees, volume) needs the real production figure. Current library carries no invented numbers.
